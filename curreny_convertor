@@ -1,0 +1,244 @@
+print("WELCOME")
+print("A.Pounds to Indian Rupee ")
+print("B.Pounds to US dollars ")
+print("C.Pounds to Euro ")
+print("D.Pounds to Japanese Yen ")
+print("E.Indian Rupee to Pounds ")
+print("F.Indian Rupee to US dollars ")
+print("G.Indian Rupee to Euro ")
+print("H.Indian Rupee to Japanese Yen ")
+print("I.Euro to Indian Rupee ")
+print("J.Euro to US dollars ")
+print("K.Euro to Japanese Yen ")
+print("L.US dollars to Pounds ")
+print("M.US dollars to Indian Rupee ")
+print("N.US dollars to Euro ")
+print("O.Japenese Yen to Indian Rupee ")
+print("P.Japanese Yen to dollar ")
+print("Q.Japanese Yen to Euro")
+
+
+choice = input("enter your choice:")
+if choice == "b" or choice == "B":
+    def func1():
+        print("this program convert Pound Sterling to US dollars ")
+        print()
+
+        pounds = eval(input("enter the amount in pounds"))
+        dollars = convert_to_dollars(pounds)
+        print("that is", dollars, "dollars")
+    convert_to_dollars = lambda pounds: pounds * 1.27
+    func1()
+
+
+elif choice == "a" or choice == "A":
+    def func2():
+        print("this program convert Pound Sterling to Indian Rupee ")
+        print()
+
+        pounds = eval(input("enter the amount in pounds"))
+        rupee = convert_to_rupee(pounds)
+        print("that is", rupee, "rupee")
+
+
+    convert_to_rupee = lambda pounds: pounds * 1.27
+    func2()
+
+elif choice == "c" or choice == "C":
+    def func3():
+        print("this program convert Pound Sterling to Euro")
+        print()
+
+        pounds = eval(input("enter the amount in pounds"))
+        euro = convert_to_euro(pounds)
+        print("that is", euro , "euro")
+
+
+    convert_to_euro = lambda pounds: pounds * 1.27
+    func3()
+
+
+elif choice == "d" or choice == "D":
+    def func4():
+        print("this program convert Pound Sterling to Japanese Yen ")
+        print()
+
+        pounds = eval(input("enter the amount in pounds"))
+        yen = convert_to_yen(pounds)
+        print("that is", yen , "yen")
+
+
+    convert_to_yen = lambda pounds: pounds * 1.27
+    func4()
+
+elif choice == "e" or choice == "E":
+    def func5():
+        print("this program convert Indian Rupee to Pound Sterling  ")
+        print()
+
+        rupee = eval(input("enter the amount in rupee"))
+        pound = convert_to_pound(rupee)
+        print("that is", pound , "pound")
+
+
+    convert_to_pound = lambda rupee: rupee * 1.27
+    func5()
+
+elif choice == "f" or choice == "F":
+    def func6():
+        print("this program convert Indian Rupee to US dollors ")
+        print()
+
+        rupee = eval(input("enter the amount in rupee"))
+        dollar = convert_to_dollar(rupee)
+        print("that is", dollar , "dollar")
+
+
+    convert_to_dollar = lambda rupee: rupee * 1.27
+    func6()
+
+elif choice == "g" or choice == "G":
+    def func7():
+        print("this program convert Indian Rupee to Euro ")
+        print()
+
+        rupee = eval(input("enter the amount in rupee"))
+        euro = convert_to_euro(rupee)
+        print("that is", euro , "euro")
+
+
+    convert_to_euro = lambda rupee: rupee * 1.27
+    func7()
+
+elif choice == "h" or choice == "H":
+    def func8():
+        print("this program convert Indian Rupee to Japanese Yen ")
+        print()
+
+        rupee = eval(input("enter the amount in rupee"))
+        yen = convert_to_yen(rupee)
+        print("that is", yen , "yen")
+
+
+    convert_to_yen = lambda rupee: rupee * 1.27
+    func8()
+
+elif choice == "i" or choice == "I":
+    def func9():
+        print("this program convert Euro to Indian Rupee ")
+        print()
+
+        euro = eval(input("enter the amount in euro"))
+        rupee = convert_to_rupee(euro)
+        print("that is", rupee , "rupee")
+
+
+    convert_to_rupee = lambda euro: euro * 1.27
+    func9()
+
+elif choice == "j" or choice == "J":
+    def func10():
+        print("this program convert Euro to US dollars ")
+        print()
+
+        euro = eval(input("enter the amount in euro"))
+        dollar = convert_to_dollar(euro)
+        print("that is", dollar , "dollar")
+
+
+    convert_to_dollar = lambda euro: euro * 1.27
+    func10()
+
+elif choice == "k" or choice == "K":
+    def func11():
+        print("this program convert Euro to Japanese Yen ")
+        print()
+
+        euro = eval(input("enter the amount in euro"))
+        yen = convert_to_yen(euro)
+        print("that is", yen , "yen")
+
+
+    convert_to_yen = lambda euro: euro * 1.27
+    func11()
+
+elif choice == "l" or choice == "L":
+    def func12():
+        print("this program convert US dollar to Pounds ")
+        print()
+
+        dollar = eval(input("enter the amount in dollar"))
+        pound = convert_to_pound(dollar)
+        print("that is", pound , "pound")
+
+
+    convert_to_pound = lambda dollar: dollar * 1.27
+    func12()
+
+elif choice == "m" or choice == "M":
+    def func13():
+        print("this program convert US dollar to Indian Rupee ")
+        print()
+
+        dollar = eval(input("enter the amount in dollar"))
+        rupee = convert_to_rupee(dollar)
+        print("that is", rupee , "rupee")
+
+
+    convert_to_rupee = lambda dollar: dollar * 1.27
+    func13()
+
+elif choice == "n" or choice == "N":
+    def func14():
+        print("this program convert US dollar to Euro ")
+        print()
+
+        dollar = eval(input("enter the amount in dollar"))
+        euro = convert_to_euro(dollar)
+        print("that is", euro , "euro")
+
+
+    convert_to_euro = lambda dollar: dollar * 1.27
+    func14()
+
+elif choice == "o" or choice == "O":
+    def func15():
+        print("this program convert Japanese Yen to Indian Rupee ")
+        print()
+
+        yen = eval(input("enter the amount in yen"))
+        rupee = convert_to_rupee(yen)
+        print("that is", rupee , "rupee")
+
+
+    convert_to_rupee = lambda yen : yen * 1.27
+    func15()
+
+elif choice == "p" or choice == "P":
+    def func16():
+        print("this program convert Japanese Yen to US dollars ")
+        print()
+
+        yen = eval(input("enter the amount in yen"))
+        dollar = convert_to_dollar(yen)
+        print("that is", dollar , "dollar")
+
+
+    convert_to_dollar = lambda yen : yen * 1.27
+    func16()
+
+elif choice == "q" or choice == "Q":
+    def func17():
+        print("this program convert Japanese Yen to Euro ")
+        print()
+
+        yen = eval(input("enter the amount in yen"))
+        euro = convert_to_euro(yen)
+        print("that is", euro , "euro")
+
+
+    convert_to_euro = lambda yen : yen * 1.27
+    func17()
+
+else:
+    print("Invalid Argument")
